@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: T D
+name: In Earnest.
 
 # Name of the author
 # author: T D
@@ -27,7 +27,7 @@ google_analytics: UA-192755615-1
 # For newer "GA4" analytics, use the following instead of the "UA" entry above
 #google_analytics_ga4: G-GABC1DEFG
 
-# Your website URL (e.g. http://amitmerchant1990.github.io or http://www.amitmerchant.com)
+# Your website URL
 # Used for Sitemap.xml and your RSS feed
 url: http://teodanciu.github.io
 enforce_ssl: https://teodanciu.github.io

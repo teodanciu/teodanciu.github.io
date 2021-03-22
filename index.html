@@ -5,12 +5,9 @@ layout: default
 <div class="posts">
   <ul id="results-container">
     {% for post in paginator.posts %}
-    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} ( {{ post.date | date: "%B %e, %Y" }})</a>
-<!--          <div>-->
-<!--            <p class="post_date">{{ post.date | date: "%B %e, %Y" }}</p>-->
-<!--          </div>-->
-
-      </li>
+    <li>
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} </a> ({{ post.date | date: "%B %e, %Y" }})
+    </li>
     {% endfor %}
   </ul>
 </div>
